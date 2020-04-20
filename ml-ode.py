@@ -509,7 +509,7 @@ def test_evaluation(model, params_dict, device, dl_test):
 
 
 if __name__ == "__main__":
-    simulation_name = "small_climate"
+    simulation_name = "poi recommendation"
     device = torch.device("cpu")
 
     idx_tmp = [i for i in range(0,269)]
