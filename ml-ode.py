@@ -512,9 +512,6 @@ if __name__ == "__main__":
     simulation_name = "small_climate"
     device = torch.device("cpu")
 
-    # train_idx = np.load("../../gru_ode_bayes/datasets/Climate/folds/small_chunk_fold_idx_0/train_idx.npy",allow_pickle=True)
-    # val_idx = np.load("../../gru_ode_bayes/datasets/Climate/folds/small_chunk_fold_idx_0/val_idx.npy",allow_pickle=True)
-    # test_idx = np.load("../../gru_ode_bayes/datasets/Climate/folds/small_chunk_fold_idx_0/test_idx.npy",allow_pickle=True)True
     idx_tmp = [i for i in range(0,269)]
     idx = random.shuffle(idx_tmp)
     train_idx = idx_tmp[:169]
