@@ -1,2 +1,2 @@
 # ML-ODE
-spatio-tempotal prediction/recommendation
+spatio-temporal prediction/recommendation
